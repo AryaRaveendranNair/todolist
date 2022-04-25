@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container-fluid{
+    /* background-color: rgb(8, 8, 8); */
+    box-sizing: border-box;
+    border: 2px solid rgb(217, 193, 11);
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 60%;
+    height:360px;
+    width:450px;
+    border-radius: 20px;
+}
+
+body{
+    background-image: url("https://ph-files.imgix.net/ae41cfa5-a7b9-4a15-8f0d-ba676c519f12.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&fit=max&dpr=1");
+    background-size: cover;
+    background-attachment: fixed;
+}
+h3{
+    margin-top: 10%;
+    letter-spacing: 5px;
+    text-shadow: 5px;
+    text-decoration:underline;
+    color: rgb(218, 190, 12);
+}
+input{
+    width: 290px;
+    margin-left: -25%;
+    padding: 3px;
+    color: rgb(245, 239, 64);
+   
+}
+#username{
+   
+    margin-top: 15%;
+    border: 2px solid rgb(245, 239, 64);
+    background-color: rgb(11, 11, 10);
+    text-align: center;
+    border-radius: 20px;
+}
+#password{
+   
+    border: 2px solid rgb(213, 180, 47);
+    background-color: rgb(9, 9, 9);
+    text-align: center;
+    border-radius: 20px;
+}
+::placeholder{
+    text-align: center;
+    color: rgb(218, 190, 12);
+    letter-spacing: 1px;
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(226, 214, 50);
+    border-style: double;
+    color: rgb(11, 11, 11);
+    font-weight: 700;
+    font-size: large;
+    margin-left: 10%;
+    letter-spacing: 2px;
+    margin-top: -35%;
+  
+}
+#checkbox{
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+   accent-color: rgb(201, 198, 15);
+  
+  
+  }
+.checkBox{
+    display: flex;
+    text-align: center;
+    margin-top: -29px!important;
+    font-size: medium;
+    margin-left: 20%;
+  }
+  .text{
+    color: rgb(218, 190, 12);
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: -4%;
+    letter-spacing: 1px;
+  }
+  .note{
+      margin-top: -5%;
+      width: 200%;
+      margin-left: -35%;
+      color: whitesmoke
+  }
